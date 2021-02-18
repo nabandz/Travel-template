@@ -8,3 +8,12 @@
     padding: 0;
     border: 0;
 }
+
+.container {
+    max-width: 1673px;
+    margin: 0 auto;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/home';
