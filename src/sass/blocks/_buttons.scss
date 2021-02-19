@@ -3,7 +3,6 @@
     height: 53px;
     background: none;
     border: 2px solid #ffffff;
-
     font-size: 18px;
     font-weight: 400;
     color: #ffffff;
@@ -19,5 +18,15 @@
     }
     &_home {
         margin-top: 22px;
+    }
+    &_about {
+        margin-top: 65px;
+        border: 2px solid #000000;
+        color: #000000;
+        &:hover {
+            background-color:  #000000;
+            color: #ffffff;
+            transition: all 0.3s;
+        }
     }
 }
