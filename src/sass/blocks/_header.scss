@@ -16,6 +16,19 @@
             font-weight: 400;
             color: #ffffff;
             text-decoration: none;
+            &:after {
+                content: '';
+                display: block;
+                height: 2px;
+                width: 0%;
+                background-color: #ffffff;
+                transition: all 0.3s;
+            }
+            &:hover {
+                &:after {
+                    width: 100%;
+                }
+            }
         }
     }
 }

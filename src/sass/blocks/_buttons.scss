@@ -9,6 +9,14 @@
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    &:hover {
+        background-color:  #ffffff;
+        color: #000000;
+        transition: all 0.3s;
+    }
+    &:focus {
+        outline: none;
+    }
     &_home {
         margin-top: 22px;
     }
