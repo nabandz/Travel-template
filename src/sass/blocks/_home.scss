@@ -26,21 +26,29 @@
     .social__links {
         margin: 0;
         padding: 0;
+        margin-left: -21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vh;
         position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-40%);
+        top: 0;
+        left: 100%;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
         li {
             list-style-type: none;
-            transform: rotate(90deg);
         }
         a {
-            display: block;
-            margin: 140px -25px;
+            margin: 0 40px;
             font-size: 20px;
             font-weight: 400;
             color: #ffffff;
             text-decoration: none;
+            &:hover {
+                text-shadow:#ffffff 0 0 10px;
+                transition: all 0.3s;
+            }
         }
     }
 }
