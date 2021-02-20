@@ -1,11 +1,5 @@
 .header {
     display: block;
-    .menu__list {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
     &__menu {
         li {
             margin: 0 50px;
@@ -30,5 +24,11 @@
                 }
             }
         }
+    }
+    .menu__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
 }
