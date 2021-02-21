@@ -82,7 +82,7 @@
                 sed do eiusmod tempor incididunt ut labore et dolore  
             </p>
             <div class="photos__carousel">
-                <div class="photos__img photos__img_1">
+                <div class="photos__slider photos__slider-1">
                     <div>
                         <img class="photos__slide-img" src="/img/photos_slide/photos_slide_1.jpg" alt="slide_1">
                     </div>
@@ -96,7 +96,7 @@
                         <img class="photos__slide-img" src="/img/photos_slide/photos_slide_5.jpg" alt="slide_5">
                     </div>
                 </div>
-                <div class="photos__img photos__img_2">
+                <div class="photos__slider photos__slider-2">
                     <div>
                         <img class="photos__slide-img" src="/img/photos_slide/photos_slide_4.jpg" alt="slide_4">
                     </div>
@@ -110,7 +110,7 @@
                         <img class="photos__slide-img" src="/img/photos_slide/photos_slide_8.jpg" alt="slide_8">
                     </div>
                 </div>
-                <div class="photos__img photos__img_3">
+                <div class="photos__slider photos__slider-3">
                     <div>
                         <img class="photos__slide-img" src="/img/photos_slide/photos_slide_7.jpg" alt="slide_7">
                     </div>
@@ -124,13 +124,20 @@
                         <img class="photos__slide-img" src="/img/photos_slide/photos_slide_3.jpg" alt="slide_3">
                     </div>
                 </div>
-                <div class="photos__angle">
-                    <button class="button button_carousel button_photos-prev">
-                        <img class="photos__angle_left" src="/icons/angle-left.png" alt="angle_left">
-                    </button>
-                    <button class="button button_carousel button_photos-next">
-                        <img class="photos__angle_right" src="/icons/angle-right.png" alt="angle_right">
-                    </button>
+                <div class="photos__panel">
+                    <div class="photos__angle">
+                        <button class="button button_carousel button_photos-prev">
+                            <img class="photos__angle_left" src="/icons/angle-left.png" alt="angle_left">
+                        </button>
+                        <div class="photos__counter">
+                            <a id="photos__click">1</a>
+                            <p>/</p>
+                            <a id="photos__click"><span>5</span></a>
+                        </div>
+                        <button class="button button_carousel button_photos-next">
+                            <img class="photos__angle_right" src="/icons/angle-right.png" alt="angle_right">
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

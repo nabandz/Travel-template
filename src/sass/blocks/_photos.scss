@@ -4,7 +4,29 @@
     &__carousel {
         margin-top: 97px;
     }
-    &__img {
+    &__slider {
         margin-bottom: 20px;
+    }
+    &__angle {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__counter {
+        display: flex;
+        font-size: 30px;
+        font-weight: 500;
+        color: #c5c5c5;
+        p {
+            margin: 0 14px;
+        }
+        a {
+            width: 18px;
+            height: 37px;
+        }
+        span {
+            color: #000000;
+        }
     }
 }
