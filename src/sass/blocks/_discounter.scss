@@ -1,17 +1,21 @@
 .discounter {
     padding: 150px 0;
     background: #f4f4f4;
+
     &__wrapper {
         display: flex;
         justify-self: space-between;
         align-items: center;
     }
+
     &__form {
         margin-left: 106px;
     }
+
     &__content {
         margin-left: 60px;
     }
+    
     .subscribe__form {
         width: 980px;
         display: flex;

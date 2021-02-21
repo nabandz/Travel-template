@@ -2,12 +2,14 @@
     min-height: 1080px;
     padding: 45px 0 0 0;
     background: url(../img/home_bg.jpg) center (center/cover) no-repeat;
+
     &__wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
+
     &__title {
         margin: 0;
         margin-top: 420px;
@@ -15,6 +17,7 @@
         font-weight: 700;
         color: #ffffff;
     }
+
     &__subtitle {
         margin: 0;
         margin-top: -21px;
@@ -23,6 +26,7 @@
         color: #ffffff;
         letter-spacing: 4px;
     }
+
     .social__links {
         margin: 0;
         padding: 0;
@@ -36,9 +40,11 @@
         left: 100%;
         transform-origin: 0 0;
         transform: rotate(90deg);
+
         li {
             list-style-type: none;
         }
+        
         a {
             margin: 0 40px;
             font-size: 20px;

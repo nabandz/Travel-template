@@ -38,7 +38,7 @@ function onClickPrev() {
 };
 
 //Result
-document.querySelector('.button_photos-prev').addEventListener ('click', function () {
+document.querySelector('.button_slider-prev').addEventListener ('click', function () {
     if (clicks > 1) {
         photosSlider_1.goTo('prev');
         photosSlider_2.goTo('next');
@@ -47,7 +47,7 @@ document.querySelector('.button_photos-prev').addEventListener ('click', functio
     onClickPrev();
 });
 
-document.querySelector('.button_photos-next').addEventListener ('click', function () {
+document.querySelector('.button_slider-next').addEventListener ('click', function () {
     if (clicks < 5) {
         photosSlider_1.goTo('next');
         photosSlider_2.goTo('prev');

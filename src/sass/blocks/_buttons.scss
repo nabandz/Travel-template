@@ -8,6 +8,7 @@
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 22px;
     &:hover {
         background-color:  #ffffff;
         color: #000000;
@@ -16,10 +17,8 @@
     &:focus {
         outline: none;
     }
-    &_home {
-        margin-top: 22px;
-    }
-    &_about {
+
+    &_more {
         margin-top: 65px;
         border: 2px solid #000000;
         color: #000000;
@@ -29,11 +28,13 @@
             transition: all 0.3s;
         }
     }
-    &_carousel {
+
+    &_slider {
         width: 20px;
         margin: 0 48px;
     }
-    &_company {
+
+    &_view {
         margin-top: 80px;
         background: #dddcdc;
         color: #000000;
@@ -43,7 +44,9 @@
             transition: all 0.3s;
         }
     }
+
     &_form {
+        margin: 0;
         height: 71px;
         width: 247px;
         background-color:  #3a4047;

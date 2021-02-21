@@ -1,13 +1,16 @@
 .tour {
+    padding-bottom: 40px;
     &__wrapper {
         display: flex;
     }
+
     &__content {
         margin-left: 150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     &__img {
         box-shadow: 0.4em 0.4em 25px 1px rgba(122,122,122,0.7);
     }
