@@ -1,0 +1,30 @@
+.discounter {
+    padding: 150px 0;
+    background: #f4f4f4;
+    &__wrapper {
+        display: flex;
+        justify-self: space-between;
+        align-items: center;
+    }
+    &__form {
+        margin-left: 106px;
+    }
+    &__content {
+        margin-left: 60px;
+    }
+    .subscribe__form {
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            height: 71px;
+            width: 304px;
+            background-color:  #f4f4f4;
+            color: #3a4047;
+            border: 2px solid #3a4047;
+            font-size: 22px;
+            padding-left: 30px;
+        }
+    }
+}
