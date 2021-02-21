@@ -1,21 +1,22 @@
-.header {
-    display: block;
+.footer {
+    padding: 94px 0 108px 0;
     &__menu {
         li {
             margin: 0 50px;
             list-style-type: none;
         }
         a {
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 400;
-            color: #ffffff;
+            color: #000000;
             text-decoration: none;
+            text-transform: uppercase;
             &:after {
                 content: '';
                 display: block;
                 height: 1px;
                 width: 0%;
-                background-color: #ffffff;
+                background-color: #000000;
                 transition: all 0.3s;
             }
             &:hover {
@@ -30,5 +31,16 @@
         padding: 0;
         display: flex;
         justify-content: center;
+    }
+    &__info {
+        margin-top: 65px;
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
     }
 }
