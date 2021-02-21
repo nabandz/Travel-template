@@ -33,4 +33,14 @@
         width: 20px;
         margin: 0 48px;
     }
+    &_company {
+        margin-top: 80px;
+        background: #dddcdc;
+        color: #000000;
+        &:hover {
+            background-color:  #000000;
+            color: #dddcdc;
+            transition: all 0.3s;
+        }
+    } 
 }

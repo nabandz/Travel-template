@@ -1,0 +1,12 @@
+.company {
+    padding: 80px 0 160px 0;
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__block {
+        max-width: 818px;
+    }
+}

@@ -5,12 +5,19 @@
     color: #000000;
     text-transform: uppercase;
     margin-top: 32px;
-    &_photos {
+    &_center {
         font-size: 28px;
         font-weight: 500;
         color: #5b5b5c;
         text-transform: none;
         text-align: center;
         margin-top: 37px;
+        letter-spacing: 4px;
+    }
+    &_block {
+        margin-top: 65px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 4px;
     }
 }
