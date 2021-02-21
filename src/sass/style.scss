@@ -9,13 +9,14 @@
     border: 0;
 }
 .container {
-    max-width: 1673px;
+    max-width: 1675px;
     margin: 0 auto;
 }
 
 @import 'blocks/header';
 @import 'blocks/home';
 @import 'blocks/about';
+@import 'blocks/photos';
 @import 'blocks/buttons';
 @import 'blocks/titles';
 @import 'blocks/subtitles';
